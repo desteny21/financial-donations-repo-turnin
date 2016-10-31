@@ -1,0 +1,84 @@
+h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+  padding: 10px;
+  font-family: "raleway";
+}
+
+header {
+  text-align:center;
+  background-color:#b3cce6;
+  padding: 50px;
+  width:100%;
+}
+
+ol,ul {
+  list-style: none;
+}
+
+nav {
+  margin: 10px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: muli;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  font-family: 'raleway';
+}
+
+p {
+  font-family: "raleway";
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#columns ul{
+    display:table;
+    padding:55px;
+    background-color:#f0f0f5;
+    margin:20px 120px;
+}
+
+#columns ul li{
+    display:inline-table;
+    width:calc(100% / 3.33);
+    padding:10px;
+}
+
+#columns #1stcolumn{
+    border-right:1px solid grey;
+}
+
+#columns #2ndcolumn{
+    border-right:1px solid grey;
+}
+
+footer{
+  text-align:center;
+  background-color:#d1e751;
+  padding:70px;
+  width:100%;
+}
+
+footer #socialmedia{
+  display:inline;
+  border-top:1px solid grey;
+}
+
+footer #socialmedia li{
+  display:inline-block;
+}
+
+footer .fa{
+  color:black;
+}
